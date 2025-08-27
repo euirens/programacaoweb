@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+    <style>
+      *{
+        color:white;
+        }
+      body{
+        background : black;
+        
+        }
+      </style>
+  </head>
+  
+<body>
+  <h1>Aula prática 1 - Fundamentos de Programação Web</h1>
+  <p>Nesta aula aprendi a programar formulários em HTML</p>
+  
+  <form action=""method="POST">
+    <br><br>
+    <p>Exemplo 1</p>
+    <p>Formulário de preenchimento simples, com nome e pedido de senha.</p>
+    <fieldset>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" placeholder="Digite seu nome" size="50" maxlength="50">
+    <br><br><br>
+    <label for="senha">Senha:</label>
+    <input type="text" type="password" name="senha" size="8" maxlength="8">
+</fieldset>
+    <br><br>
+
+    <p>Exemplo 2</p>  
+    <p>Formulário de preenchimento com múltiplas escolhas</p>
+    <fieldset>
+      <label for="Linguagem">Qual linguagem você possui interesse em aprender?</label>
+      <br><br>
+      <input type="checkbox" name="Linguagem[]" value="Python">Python
+      <input type="checkbox" name="Linguagem[]" value="C++">C++
+      <input type="checkbox" name="Linguagem[]" value="Java">Java
+      <input type="checkbox" name="Linguagem[]" value="delphi">Delphi
+      <input type="checkbox" name="Linguagem[]" value="SQL">SQL
+    </fieldset>
+<br><br>
+    <p>Exemplo 3</p>  
+    <p>Formulário de preenchimento de escolha única</p>
+    <fieldset>
+    <label for="linguagemescolhida">Quais linguagens você já sabe?</label>
+    <br><br>
+
+    <input type="radio" name="curso" value="c++">C++
+    <input type="radio" name="curso" value="Python">Python
+    <input type="radio" name="curso" value="delphi">Delphi
+      <input type="radio" name="curso" value="Java">Java
+      <input type="radio" name="curso" value="SQL">SQL
+      </fieldset>
+    <br><br>
+    
+    <p>Exemplo 4</p>  
+    <p>Formulário de preenchimento em lista</p>
+    <fieldset>
+    <label for="linguagemescolhida">Você prefere front-end ou back-end?</label>
+    <br>
+    <select name="escola">
+      <option value="Front-end">Front-end</option>
+      <option value="Back-end">Back-end</option>
+       <option value="Full stack">Fullstack</option>
+       </fieldset>
+    </form>
+    
+      
+</body>
+</html>
